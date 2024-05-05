@@ -1,0 +1,221 @@
+@charset "utf-8";
+@import url("Style_Boletín.css");
+.LogoCastlevania {
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.BarraNavegacion {
+    background-color: #000000;
+    width: 1340px;
+    height: 100px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    right: 0px;
+    opacity: 0.7;
+    float: right;
+    margin-top: -228px;
+    margin-right: 0px;
+}
+
+
+nav .BarraNavegacion a {
+    width: 100px;
+    height: 100%;
+    font-family: Lora;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.SecciónFormulario {
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    padding-top: 80px;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 80px;
+    font-family: lora;
+	box-shadow: 10px 10px 40px #000000;
+}
+
+.SecciónFormulario h3{
+    font-size: 30px;
+}
+
+.controls{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    display: block;
+	font-family: lora;
+	font-size: 18px;
+}
+.SecciónFormulario a{
+	text-decoration: none;
+	color: #000000;
+}
+
+p a:hover{
+	text-decoration: underline;
+}
+	a{
+	text-decoration: none;
+}
+
+
+nav .BarraNavegacion a:hover {
+    background: #d40000;
+	width: 15%;
+    color: #ffffff;
+    border-radius: 5px 10px;	
+	transition: all 0.5s ease;
+}
+
+.ParrafosInformación {
+    width: 80%;
+    font-family: Lora;
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: auto;
+	margin-right: auto;}
+.banner  {
+    width: 500px;
+    font-family: constantia;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #FFFFFF;
+    padding-left: 30px;
+    background-color: #000000;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    opacity: 0.7;
+    padding-top: 20px;
+    margin-top: 3%;
+    text-align: center;
+    margin-left: 0px;
+}
+body footer section {
+    width: 1920px;
+    height: auto;
+	background-color: #000000;
+}
+	
+	.BotonMostrarMas {
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    font-family: Lora;
+    font-weight: bolder;
+    font-size: 20px;
+    border: medium solid #D40000;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    margin-top: 25px;
+	text-decoration: none;
+}
+.BotonMostrarMas:hover {
+    background-color: #D40000;
+    color: #FFFFFF;
+}
+	
+body footer section {
+	display: inline-block;
+    margin-left: -9px;
+}
+.footerkonami {
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logoKonami {
+    margin-top: 40px;
+}
+.consolas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.flex_container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+	
+}
+.boton_confirmación {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+footer section p {
+    color: #FFFFFF;
+    font-family: Lora;
+    font-weight: 100;
+    text-align: center;
+    font-size: small;
+}
+
+.fondo-formulario {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(../images/Castillo.jpg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.información {
+    color: #000000;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    font-size: 21px;
+}
+
+body {
+    width: 1920px;
+}
+body header {
+    margin-top: -9px;
+    margin-left: -9px;
+}
+.Gratula {
+    width: 80%;
+    height: auto;
+    font-family: constantia;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #FFFFFF;
+    background-color: #000000;
+    display: block;
+    margin-left: auto;
+    padding: 40px;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 40px;
+    opacity: 0.7;
+}

@@ -1,0 +1,326 @@
+@charset "utf-8";
+body {
+    background-image: url(../images/Fondo_humo_rojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 1920px;
+	}
+.home_historia {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Banner_Noticias.jpg");
+    margin-left: -9px;
+    margin-top: -9px;
+}
+.LogoCastlevania {
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.BarraNavegacion {
+    background-color: #000000;
+    width: 1340px;
+    height: 100px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    right: 0px;
+    opacity: 0.7;
+    float: right;
+    margin-top: -228px;
+    margin-right: 0px;
+}
+
+nav .BarraNavegacion a {
+    width: 100px;
+    height: 100%;
+    font-family: Lora;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+nav .BarraNavegacion a:hover {
+    background: #d40000;
+	width: 15%;
+    color: #ffffff;
+    border-radius: 5px 10px;	
+	transition: all 0.5s ease;
+}
+body header {
+    height: 500px;
+    width: 1920px;
+}
+body footer section {
+    width: 1920px;
+    height: auto;
+    background-color: #000000;
+}
+body footer section {
+	display: inline-block;
+    margin-left: -9px;
+}
+
+.footerkonami {
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logoKonami {
+    margin-top: 40px;
+}
+.consolas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.TablaNoticias {
+    font-family: "Lora";
+    font-weight: 600;
+	background-color: var(--dt-backround-color-container);
+	border-radius: var(--dt-border-radius);
+	
+}
+
+footer section p {
+    color: #FFFFFF;
+    font-family: Lora;
+    font-weight: 100;
+    text-align: center;
+    font-size: small;
+}
+.TablaFlex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.PáginaTabla {
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+}
+.SeccionesTabla {
+    display: inline-block;
+
+}
+.secciones {
+    display: inline-block;
+    margin-left: 35px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    margin-top: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border: medium solid #D40000;
+	
+}
+.Actualización {
+    width: 100px;
+    display: block;
+    border-radius: 12px;
+    background-color: #3BC553;
+    text-align: center;
+    font-family: lora;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #000000;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+.Evento {
+    width: 70px;
+    display: block;
+    border-radius: 12px;
+    text-align: center;
+    background-color: #1A8DEB;
+    font-family: lora;
+    font-weight: bolder;
+    font-size: small;
+    color: #000000;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+.Noticia {
+    width: 60px;
+    background-color: #D40000;
+    display: block;
+    text-align: center;
+    font-family: lora;
+    font-weight: bolder;
+    font-size: small;
+    border-radius: 12px;
+    color: #000000;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    margin-top: 18px;
+}
+tbody {
+    display: block;
+    margin-left: 30px;
+}
+
+body main {
+    padding-top: 15px;
+    display: block;
+    margin-top: -16px;
+    margin-left: -9px;
+    padding-left: 20px;
+}
+
+.datatable-container{
+    background-color: #2a3338;
+    font-family: Lora;
+    font-size: 15px;
+    color: white;
+    width: 1200px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    border-radius: 50px;
+ }
+
+.header-tools{
+    width: 100%;
+    display: inline-block;
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-bottom: 25px;
+    border-collapse: collapse;
+}
+ .header-tools div {
+    font-weight: 100;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    border: thin solid #FFFFFF;
+    border-collapse: collapse;
+}
+
+.header-tools div:hover{
+    background: #3282b8;
+    border-collapse: collapse;
+}
+
+.datatable {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    display: inline-block;
+}
+
+.datatable tr td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: block;
+    text-decoration: none;
+ }
+.datatable tr {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+
+.datatable tr:hover {
+	background: #3282b8;
+}
+.datatable tr:nth-child(even):hover{
+	background: #3282b8;
+}
+
+.datatable tr:nth-child(even){
+	background: rgb(61,68,73);
+
+}
+
+
+.active{
+    background-color: #3282b8;
+}
+
+.footer-tools {
+    align-items: baseline;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.footer-tools ul {
+    width: 50%;
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: -40px;
+    color: #FFFFFF;
+}
+
+.footer-tools li button {
+    font-weight: bold;
+    text-align: center;
+    background: transparent;
+    border-style: none;
+    color: white;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.footer-tools li button:hover{
+    background-color: #3282B8;
+    border-style: none;
+}
+.Primer-td {
+    display: block;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+.Prueba {
+    color: #FFB109;
+}
+.info-tabla {
+    font-size: 12px;
+    font-weight: bolder;
+}
+.Detalles {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+.Detalles:hover {
+color: #d40000;
+	transition-duration: .4s;
+}

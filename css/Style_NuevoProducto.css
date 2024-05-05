@@ -1,0 +1,294 @@
+@charset "utf-8";
+body {
+    background-image: url("../images/Fondo_humo_NuevoProducto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 1920px;
+	}
+header {
+    width: 1920px;
+    height: 848px;
+}
+.home_historia {
+    width: 1920px;
+    height: 848px;
+    background-image: url("../images/Castlevania_NuevoProducto.png");
+	background-attachment:scroll;
+	background-repeat: no-repeat;
+	background-position: center;
+    margin-left: -9px;
+    margin-top: -9px;
+}
+.LogoCastlevania {
+
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.BarraNavegacion {
+    background-color: #000000;
+    width: 1340px;
+    height: 100px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    right: 0px;
+    opacity: 0.7;
+    float: right;
+    margin-top: -229px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+nav .BarraNavegacion a {
+    width: 100px;
+    height: 100%;
+    font-family: Lora;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+nav .BarraNavegacion a:hover {
+    background: #d40000;
+	width: 15%;
+    color: #ffffff;
+    border-radius: 5px 10px;	
+	transition: all 0.5s ease;
+}
+body footer section {
+    width: 1920px;
+    height: auto;
+	background-color: #000000; 
+    display: inline-block;
+	margin-left: -9px;}
+.información {
+    color: #000000;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bolder;
+    background-color: #FFFFFF;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+}
+.Primersection {
+    background-image: url(../images/Page_azul.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 1920px;	
+}
+.divdentrojuego {
+    display: flex;
+    justify-content: space-between;
+}
+
+main a{
+    border: medium solid #FFFFFF;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+.secciones_acordeon {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+main a:hover{
+    background-color: #D40000;	
+}
+
+.CircleOfMoon   {
+    background-image: url(../images/Circle_Moon.jpg);
+    background-repeat: no-repeat;
+	background-position:center;
+    width: 1598px;
+    height: 848px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DecripciónSección {
+    color: #000000;
+    font-family: Lora;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 20px;
+}
+.ParrafosInformación {
+    width: 80%;
+    font-family: Lora;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    display: block;
+}
+.divTercios {
+    width: 100%;
+}
+
+.videoflotanteizquierdo {
+    margin-right: 40px;
+
+}
+.footerkonami {
+    display: flex;
+    margin-right: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-family: lora;
+    font-weight: bolder;
+}
+
+.active, .accordion:hover {
+    background-color: #D40000;
+    color: #FFFFFF;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+.logoKonami {
+    margin-top: 40px;
+}
+.consolas {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+footer section p {
+    color: #FFFFFF;
+    font-family: Lora;
+    font-weight: 100;
+    text-align: center;
+    font-size: small;
+}
+.sectioncentrado {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+}
+.imágenesLogotipoIzquierdo {
+    margin-top: 12%;
+    float: left;
+    height: auto;
+}
+.Harmony_Dissonance {
+    background-image: url(../images/Harmony_Dissonance.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1598px;
+    height: 848px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.Aria_sorrow {
+    width: 1598px;
+    height: 848px;
+    background-image: url(../images/Aria_Sorrow.png);
+    background-repeat: no-repeat;
+	background-position:center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.Vampire_kiss {
+    width: 1598px;
+    height: 848px;
+    background-image: url(../images/Vampire_kiss.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.video_derecho {
+    width: 560px;
+    margin-left: 100px;
+    margin-top: -35px;
+}
+.ImágenesLogotipoDerecho {
+    margin-top: 15%;
+    float: right;
+    margin-right: 60px;
+}
+.video_izquierdo {
+    margin-top: -60px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.LogoAriaSorrow {
+    width: 480px;
+    margin-left: 60px;
+    margin-top: 160px;
+}
+.LogoHarmony {
+    margin-top: 190px;
+}
+.LogoDracX {
+    margin-top: 258px;
+    margin-right: 125px;
+}
+.videoDracX {
+    margin-top: -105px;
+}
+.video_AriaSorrow {
+    margin-top: -65px;
+}
+.párrafoAriaSorrow {
+    margin-top: -16px;
+}
+.párrafoDráculaX {
+    margin-top: -20px;
+
+}
+body main {
+    margin-left: -9px;
+}

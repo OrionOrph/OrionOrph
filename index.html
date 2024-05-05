@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>KONAMI: Castlevania Website </title>
+<link href="css/Style_page.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header>	
+  <section class="homepage"> 
+	  <nav>
+		  <a href="index.html"> <img src="images/logo_dracula_pc_en.png" alt="" width="550" height="210" class="LogoCastlevania"/> </a>
+    <div class="BarraNavegacion">
+	  	<a href="index.html"> Inicio</a>
+		<a href="Historia.html"> Historia</a> 
+		<a href="Noticias y Videos.html"> Noticias y Vídeos </a>
+		<a href="Nuevo Producto.html"> Nuevo Producto </a> 
+		<a href="Boletín.html"> Boletín </a> </div>
+  </nav> 
+	<div> 
+		<audio controls>
+			<source src="Audio/Castlevania_Prayer.mp3" type="audio/mp3">
+		</audio>
+	</div>
+	</section>
+</header>
+<main>
+	<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+	<section class="personajes">
+	  <section class="flex_container">  
+		<div> <img src="images/Drácula_personaje.jpg" width="638" height="650" alt=""/> </div>
+		<div class="divTextoPersonajes">
+			<h3>Drácula</h3> 
+	      <p class="ParrafosInformación">Drácula (también conocido como <b>Mathias Cronqvist</b> o <b>Vlad Tepes</b>) es el antagonista principal de la serie de videojuegos de la saga <i>Castlevania</i>.</p>
+		    <p class="ParrafosInformación"> Originalmente fue un humano llamado Mathias Cronqvist. Drácula cayó en la locura después de la muerte de su primera esposa, y se convirtió en un vampiro inmortal gracias a los poderes de la Piedra Carmesí. Con sus poderes oscuros, construyó su ejército de criaturas y su fortaleza demoníaca.</p> 
+			<p class="ParrafosInformación">Desde el siglo XI, el clan Belmont se opuso a Drácula, y los guerreros legendarios se han enfrentado contra él cada vez que regresaba de entre los muertos.</p>
+        </div>
+			</section>
+	</section>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <section class="personajes">
+	  <section class="flex_container">
+		<div> <img src="images/Alucard_personaje.jpg" width="638" height="650" alt=""/> </div>
+		<div class="divTextoPersonajes">
+			<h3>Alucard</h3> 
+	      	<p class="ParrafosInformación"><b>Adrian Fahrenheit Tepe</b>, mejor conocido como Alucard, es el hijo <i>dhampir</i> del conde Drácula.</p>
+		    <p class="ParrafosInformación">A medida que la descendencia de una unión antinatural entre Drácula y una mujer humana llamada Lisa, Adrian tenía poderes especiales, predeterminando a ser más fuerte que cualquier humano, pero no potencialmente tan fuerte como su padre, sobre todo en las artes oscuras. Después de que Lisa muriera, confundida con una bruja, Adrian creció bajo la influencia de su padre, donde le fueron enseñadas las artes oscuras, y fue moldeado en un guerrero que algún día lucharía en favor de los mismos propósitos malignos.</p>
+        </div>
+			</section>
+	</section>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <section class="personajes">
+	  <section class="flex_container">  
+		<div> <img src="images/Lisa_personaje.jpg" width="638" height="650" alt=""/> </div>
+		<div class="divTextoPersonajes">
+			<h3>Lisa</h3> 
+		    <p class="ParrafosInformación">Lisa es la segunda esposa de Drácula y la madre de Alucard.</p>
+			<p class="ParrafosInformación"> Lisa creaba medicina para aquellos que sufrían epidemias. Debido a los juicios de brujería durante esa época, Lisa fue aprehendida y ejecutada. Drácula después encontraría su cuerpo, pero llegaría demasiado tarde para poder salvarla. Su hijo Adrian estuvo presente poco antes de la muerte de Lisa, que al igual que su padre, no pudo detener el trágico evento. Lisa pronunció las siguientes palabras finales a su hijo para que le entregara a Drácula: </p>
+			<p class="ParrafosInformación"> <b>"No odies a los humanos. Si no puedes convivir con ellos, entonces al menos no les causes ningún daño. Ya que para ellos ya tienen un arduo destino"</b></p>
+        </div>
+			</section>
+	</section>
+</div>
+		
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <section class="personajes">
+	  <section class="flex_container">  
+		<div> <img src="images/LeonBelmont_personaje.jpg" width="638" height="650" alt=""/> </div>
+		<div class="divTextoPersonajes">
+			<h3>Leon Belmont</h3> 
+		    <p class="ParrafosInformación">Perdió a ambos padres a una edad muy joven, y fue nombrado caballero en la edad de 16 años. Leon fue también un buen amigo de Mathias Cronqvist. Cuando su amada damisela Sara Trantoul fue secuestrada por el vampiro Walter Bernhard.</p>
+			<p class="ParrafosInformación"> Leon es el miembro más antiguo del clan Belmont del cual se conozca su nombre. Fue el primero en utilizar el látigo Matavampiros (Vampire Killer) y fue él responsable de jurar que su clan combatiría al mal por toda la eternidad.</p>
+        </div>
+			</section>
+	</section>
+</div>
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+		
+		<div class="span" style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+	<span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+</div>
+<br>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	<section class="Netflix">
+		<img src="images/LogoCastlevania_Netflix.png" width="780" height="auto" alt=""/>
+		<section>
+			<iframe width="600" height="315" src="https://www.youtube.com/embed/RvklXMXjsrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</section>
+		<section>
+			<p> ¡Las 4 temporadas de la aclamada serie Castlevania se   encuentran solo en Netflix!
+				Basada en los originales juegos clásicos, la serie animada ha  ganado popularidad y prestigio desde sus inicios y ha recolectado un número significativo de seguidores. ¡Adéntrate en este oscuro thriller animado con mucha acción sangrienta mata-vampiros!
+			</p>
+		</section>
+	</section>
+	</main>
+<footer>
+  <section>
+		<div class="footerkonami"><img src="images/Konami_Logo.png" alt="" width="211" height="35" class="footerkonami logoKonami"/> <img src="images/T(m).png" alt="" width="59" height="80" class="footerkonami teen"/></div>
+    <div class="consolas"> <img src="images/logo_switch.png" alt="" width="189" height="55"/> <img src="images/logo_steam.png" alt="" width="151" height="55"/> <img src="images/logo_ps.png" width="321" height="55" alt=""/> <img src="images/logo_xbox.png" width="484" height="55" alt=""/></div>
+    <p>©KONAMI digital entertaiment</p>
+    <p>"PlayStation", "PS4", "PS3" and "PSP" are trademarks or registered trademarks of Sony Interactive Entertainment Inc.</p>
+<p>©KONAMI 2023</p>
+  </section>
+</footer>
+
+
+</body>
+</html>
